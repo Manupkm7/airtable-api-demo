@@ -8,15 +8,12 @@ import {
   
   import colors from "./Colors";
   
-  const FONT_1 = "Lexend Deca";
-  const FONT_2 = "Roboto";
-  
   export const light = responsiveFontSizes(
     createTheme({
       custom: {
         font: {
-          1: FONT_1,
-          2: FONT_2,
+          1: "Do Hyeon, sans-serif !important",
+          2: "Do Hyeon, sans-serif !important",
         },
       },
   
@@ -138,8 +135,8 @@ import {
       },
   
       typography: {
-        fontFamily: FONT_1,
-        fontWeightRegular: 300,
+        fontFamily: "Do Hyeon, sans-serif !important",
+        fontWeightRegular: 400,
         caption: {
           color: "#747474",
         },
@@ -147,7 +144,7 @@ import {
           color: "#677CAD",
         },
         button: {
-          fontFamily: FONT_2,
+          fontFamily: "Do Hyeon, sans-serif !important",
           fontWeight: "bold",
           textTransform: "none",
         },
